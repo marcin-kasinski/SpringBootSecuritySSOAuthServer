@@ -73,7 +73,12 @@
         <version>2.3.0</version>
     </dependency>
 
-
+<!--  
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+</dependency>
+-->
 <!-- LDAP -->
    <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -91,16 +96,43 @@
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-ldap</artifactId>
     </dependency>
+
+<!-- 
     <dependency>
         <groupId>com.unboundid</groupId>
         <artifactId>unboundid-ldapsdk</artifactId>
     </dependency>
+ -->
+    
     <dependency>
         <groupId>org.springframework.security</groupId>
         <artifactId>spring-security-test</artifactId>
         <scope>test</scope>
     </dependency>
 <!-- LDAP -->
+
+
+
+  <!-- 
+
+<dependency>
+  <groupId>com.h2database</groupId>
+  <artifactId>h2</artifactId>
+  <scope>test</scope>
+</dependency>
+  
+  <dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+
+</dependency>
+  
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+</dependency>
+ -->
 
 		
 	</dependencies>
